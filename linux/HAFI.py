@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(620, 430)
         MainWindow.setMinimumSize(QtCore.QSize(620, 430))
-        MainWindow.setMaximumSize(QtCore.QSize(620, 440))
+        MainWindow.setMaximumSize(QtCore.QSize(620, 430))
         app_icon = QtGui.QIcon()
         app_icon.addFile('HAFI.png', QtCore.QSize(32, 32))
         app.setWindowIcon(app_icon)
