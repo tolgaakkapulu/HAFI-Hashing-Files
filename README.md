@@ -1,33 +1,27 @@
 # Hashing Files with HAFI
 
-Qt Designer ile tasarlanıp Python dili ile yazılmıştır. Amaç, verilerin bütünlüğünün sağlanması için kullanılan hash fonksiyonlarını kolayca kullanabilmek, çevrimdışı olarak ve hiçbir yere veri aktarılmadan dosyaların içeriğinin değişip değişmediğini kontrol edebilmektir.
+It was designed with Qt Designer and written in Python language. The aim is to easily use the hash functions used to ensure the integrity of the data, to check whether the content of the files has changed offline and without transferring data anywhere.
 <br><br>
-<b>Program İçeriği</b><br>
-<b>1-)</b>Programda MD5, SHA1, SHA224, SHA256, SHA384 ve SHA512 olmak üzere 6 adet hash fonksiyon seçeneği bulunmaktadır.<br>
-<b>2-)</b>Oluşturulan hash, <b>"Save"</b> butonuna tıklanılması halinde, <b>HAFI.txt</b> dosya adı ile içerisine tarih, dosya adı ve hash tipi bilgilerini de ekleyerek kaydedilir.<br>
-<b>3-)</b>Önceden alınmış bir hash değeri <b>"Compare"</b> bölümü ile kontrol edilip, karşılaştırma yapılabilir.<br>
-<b>3-)</b>Yeni bir dosyanın hash değerinin tekrardan ölçülebilmesi açısından <b>"Clear"</b> butonu kullanılabilmektedir.
+<b>Program Content</b><br>
+<b>1-)</b> There are 6 hash function options in the program: MD5, SHA1, SHA224, SHA256, SHA384 and SHA512.<br>
+<b>2-)</b> If the "Save" button is clicked, the created hash is saved by adding the <b>HAFI.txt</b> file name and the date, file name and hash type information.<br>
+<b>3-)</b> A previously taken hash value can be checked and compared with the <b>"Compare"</b> section.<br>
+<b>4-)</b> The <b>"Clear"</b> button can be used in order to measure the hash value of a new file again.<br>
 <br><br>
-<b> Windows</b><br>
-<img src="https://blog.tolgaakkapulu.com/HAFI/HAFI.gif" style="float:left" width="50%">
-<br><br><b>Windows</b> indirme linki : https://blog.tolgaakkapulu.com/HAFI/HAFI.exe
+<b>Windows</b><br>
+![](https://camo.githubusercontent.com/6292caffcc2531f488167823af00c28b7bfff56ba7c54e2a87921e7c23e51d04/68747470733a2f2f626c6f672e746f6c6761616b6b6170756c752e636f6d2f484146492f484146492e676966?raw=true)
+<br><br><b>Windows Download Link:</b> https://blog.tolgaakkapulu.com/HAFI/HAFI.exe
 <br>
 <b>SHA-256 : </b>395FED7C27B9C6E425D5259F4B0D12E169A2A3E8DB5C3ADA92FCF7FADB77F16E
 <br><br>
 <b>Linux</b><br>
-<img src="https://blog.tolgaakkapulu.com/HAFI/HAFI2.gif" style="float:left" width="50%">
+![](https://camo.githubusercontent.com/c5c8448713552acafc99d843268668ca84eeb14830e3decce8333154c47c3aa6/68747470733a2f2f626c6f672e746f6c6761616b6b6170756c752e636f6d2f484146492f48414649322e676966?raw=true)
 <br><br>
-<b>Linux</b> indirme linki : https://blog.tolgaakkapulu.com/HAFI/HAFI.tar
+<b>Linux Download Link:</b> https://blog.tolgaakkapulu.com/HAFI/HAFI.tar
 <br>
 <b>SHA-256 : </b>1AC20582D08A64F3793007EBC4807487F7E2CE421D7AC93F0534A7F6650AAB9F
-<br><br><b>Kurulum ve Kullanım</b><br>
+<br><br><b>Installation and Usage</b><br>
 <b>1-)</b>tar -xvf HAFI.tar<br>
 <b>2-)</b>cd HAFI<br>
 <b>3-)</b>chmod +x HAFI.py<br>
-<b>4-)</b>python3 HAFI.py<br><br>
-<b>TOLGA AKKAPULU<br><br>
-Web             : https://www.tolgaakkapulu.com<br>
-Blog            : https://blog.tolgaakkapulu.com<br>
-Parola Analizi  : https://www.parolaanalizi.com<br>
-LinkedIN        : https://tr.linkedin.com/in/tolga-akkapulu-518054105<br>
-Github          : https://github.com/tolgaakkapulu</b>
+<b>4-)</b>python3 HAFI.py<br>
